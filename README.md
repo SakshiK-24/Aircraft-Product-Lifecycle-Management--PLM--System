@@ -1,11 +1,11 @@
-# Aircraft-Product-Lifecycle-Management--PLM--System
+# Aerospace-Product-Lifecycle-Management--PLM--System
 Aircraft Product Lifecycle Management (PLM) System built using SQL Server and Power BI, featuring BOM management, revision tracking, engineering change management, approval workflows, and lifecycle analytics.
 
 ## Overview
 The Aircraft Product Lifecycle Management (PLM) System is a database and analytics project designed to simulate how aerospace and manufacturing organizations manage product information throughout the product lifecycle.
 The project demonstrates key PLM concepts including Product Structures, Bill of Materials (BOM), Revision Management, Engineering Change Management, Approval Workflows, and Product Lifecycle Tracking. A SQL Server database was used to manage product data, and Power BI was used to create an interactive dashboard for monitoring PLM activities.
 
-## Problem Statement
+## 🧩 Problem Statement
 Managing engineering product data manually can result in:
 - Difficulty tracking product components
 - Version and revision inconsistencies
@@ -15,7 +15,7 @@ Managing engineering product data manually can result in:
 
 This project provides a structured approach to managing product lifecycle information and generating actionable insights through analytics.
 
-## Objectives
+## 📌 Objectives
 - Design a relational database for Product Lifecycle Management.
 - Manage aircraft products and their associated components.
 - Track Bills of Materials (BOMs).
@@ -24,7 +24,7 @@ This project provides a structured approach to managing product lifecycle inform
 - Track approval workflows and responsible engineers.
 - Visualize PLM metrics using Power BI.
 
-## Technologies Used
+## 🛠️ Technologies Used
 - SQL Server
 - SQL
 - Power BI
@@ -68,7 +68,7 @@ Approval Workflow Analysis: Tracked engineering approvals and engineer participa
 Lifecycle Stage Analysis: Analyzed products across different lifecycle stages.
 Product Complexity Analysis: Identified products with the highest component quantity requirements.
 
-## Key Findings
+## 💡 Key Findings
 ### Product Overview:
 - Total Products: 5
 - Total Components: 30
@@ -102,7 +102,7 @@ Products are distributed across the following lifecycle stages:
 - Maintenance
 Each lifecycle stage contains one product, providing complete lifecycle coverage.
 
-## Dashboard
+## 📊 Dashboard
 ![AirFly Insights Dashboard](images/Dashboard.png)
 The dashboard enables stakeholders to monitor:
 - Product lifecycle status
