@@ -54,16 +54,24 @@ Component
 ```
 
 ## SQL Analysis Performed
-Product Structure Analysis: Identified the components belonging to each aircraft product.
+1. Product Structure Analysis: Identified the components belonging to each aircraft product.
+2. BOM Analysis: Analyzed the quantity of components required to manufacture each product.
+3. Revision Analysis: Tracked revision history and identified modified components.
+4. Latest Revision Tracking: Determined the currently active revision for each component.
+5. Engineering Change Analysis: Analyzed approved and pending engineering change requests.
+6. Approval Workflow Analysis: Tracked engineering approvals and engineer participation.
+7. Lifecycle Stage Analysis: Analyzed products across different lifecycle stages.
+8. Product Complexity Analysis: Identified products with the highest component quantity requirements.
 
-BOM Analysis: Analyzed the quantity of components required to manufacture each product.
-
-Revision Analysis: Tracked revision history and identified modified components.
-Latest Revision Tracking: Determined the currently active revision for each component.
-Engineering Change Analysis: Analyzed approved and pending engineering change requests.
-Approval Workflow Analysis: Tracked engineering approvals and engineer participation.
-Lifecycle Stage Analysis: Analyzed products across different lifecycle stages.
-Product Complexity Analysis: Identified products with the highest component quantity requirements.
+## 📊 Dashboard
+![PLM_Dashboard](images/PLMDashboard.png)
+The dashboard enables stakeholders to monitor:
+- Product lifecycle status
+- Engineering changes
+- Revision activity
+- Approval workflows
+- Product complexity
+- Component distribution
 
 ## 💡 Key Findings
 ### Product Overview:
@@ -98,16 +106,6 @@ Products are distributed across the following lifecycle stages:
 - Testing
 - Maintenance
 Each lifecycle stage contains one product, providing complete lifecycle coverage.
-
-## 📊 Dashboard
-![PLM_Dashboard](images/PLMDashboard.png)
-The dashboard enables stakeholders to monitor:
-- Product lifecycle status
-- Engineering changes
-- Revision activity
-- Approval workflows
-- Product complexity
-- Component distribution
 
 ## 🛠️ Technologies Used
 - SQL Server
