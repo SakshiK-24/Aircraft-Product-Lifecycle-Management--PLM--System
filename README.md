@@ -24,11 +24,6 @@ This project provides a structured approach to managing product lifecycle inform
 - Track approval workflows and responsible engineers.
 - Visualize PLM metrics using Power BI.
 
-## 🛠️ Technologies Used
-- SQL Server
-- SQL
-- Power BI
-
 ## Database Schema
 The system consists of the following tables: 
 - Product: Stores aircraft products and their lifecycle stages.
@@ -40,6 +35,7 @@ The system consists of the following tables:
 - ChangeApproval: Tracks approvals associated with engineering change requests.
 
 Entity Relationship Overview:
+```text
 Product
    |
    ├── Component
@@ -55,6 +51,7 @@ Component
              └── ChangeApproval
                         |
                         └── Engineers
+```
 
 ## SQL Analysis Performed
 Product Structure Analysis: Identified the components belonging to each aircraft product.
@@ -103,7 +100,7 @@ Products are distributed across the following lifecycle stages:
 Each lifecycle stage contains one product, providing complete lifecycle coverage.
 
 ## 📊 Dashboard
-![AirFly Insights Dashboard](images/Dashboard.png)
+![PLM_Dashboard](images/PLMDashboard.png)
 The dashboard enables stakeholders to monitor:
 - Product lifecycle status
 - Engineering changes
@@ -111,6 +108,11 @@ The dashboard enables stakeholders to monitor:
 - Approval workflows
 - Product complexity
 - Component distribution
+
+## 🛠️ Technologies Used
+- SQL Server
+- SQL
+- Power BI
 
 ## Skills Demonstrated
 - Product Lifecycle Management (PLM)
